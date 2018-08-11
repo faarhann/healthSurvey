@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Health survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">
+    Survey Form</h1>
+  <p id="description">Health questions</p>
+
+  <form id="survey-form">
+
+    <label for="name" id="name-label">
+      Name:
+      <input id="name" type="text" placeholder="Enter your name" required>
+    </label>
+
+    <label for="email" id="email-label">
+      <br> Email:
+      <input id="email" type="email" placeholder="Enter your email" required>
+    </label>
+
+    <label for="Age" id="number-label">
+      <br> Age:
+      <input id="number" type="number" placeholder="Age" min="1" max="120">
+    </label>
+    <br> how often do you excercise?
+    <select id="dropdown">
+      <option value="once">once</option>
+      <option value="twice">twice</option>
+      <option value="three">three times</option>
+    </select>
+    <br>
+    <p></p>
+    <p></p>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+    <br>
+    <hr>
+
+    <p></p>
+
+    do you eat 3 times a day?
+    <br>
+    <p></p>
+    always
+    <input type="checkbox" name="meal" value="always" class="checkbox">
+    <br> sometimes
+    <input type="checkbox" name="meal" value="sometimes" class="checkbox">
+    <br> never
+    <input type="checkbox" name="meal" value="never" class="checkbox">
+    <br>
+    <br>
+    <p>More comments about your health?</p>
+    <textarea cols="50" rows="4" name="textarea"></textarea>
+    <br>
+    <input type="button" value="Submit" id="btn">
+
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #555555;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  
+  
+  
+}
+#title {
+  font-size: 50px;
+}
+#description {
+  font-size: 30px;
+}
+#survey-form {
+  margin: 10px;
+  
+  
+}
+input {
+  margin: 15px;
+  
+}
+
+
+.checkbox {
+  width: 100%;
+}
+#btn {
+  background-color: #f44336;
+  font-size: 20px;
+  border-radius: 5px;
+  }
+#btn:hover {
+  font-size: 20px;
+   animation-name: mybtn;
+   animation-duration: 2s;
+}
+@keyframes mybtn{
+  50% {font-size:30px;}
+}
+
+
+@media(max-width: 200px){
+  input{
+    width: 50px;
+  }
+}
+
